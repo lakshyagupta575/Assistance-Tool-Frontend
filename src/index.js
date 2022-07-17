@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import Features from "./Features";
-import Contact from "./Contact";
+import Features from "../src/Features/Features";
+import Contact from "../src/Contact/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
