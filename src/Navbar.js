@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
+import logo from "./assets/logo.jpg";
 
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <img
-        src="/assets/brand-image.svg"
+        src={logo}
         width="30"
         height="30"
         class="d-inline-block align-top"
         alt=""
       />
-      <span class="navbar-brand mb-0 h1 pl-3">Brand Name</span>
+      <span class="navbar-brand mb-0 h1 pl-3">Assistant</span>
       <button
         class="navbar-toggler"
         type="button"
@@ -32,6 +33,12 @@ function Navbar() {
           </Link>
           <Link to="/contact" class="nav-item nav-link">
             Contact
+          </Link>
+          <Link to="/createAccount" class="nav-item nav-link ">
+            Create Account
+          </Link>
+          <Link to="/login" class="nav-item nav-link ">
+            Login
           </Link>
         </div>
       </div>

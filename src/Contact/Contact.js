@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-import ax from "../axios";
+import ax from "../services/axios";
 
 function Contact() {
   function handleSubmit(event) {

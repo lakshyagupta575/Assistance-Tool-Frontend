@@ -4,8 +4,10 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import Features from "../src/Features/Features";
-import Contact from "../src/Contact/Contact";
+import Features from "./features/Features";
+import Contact from "./contact/Contact";
+import Login from "./login/Login";
+import CreateAccount from "./createAccount/CreateAccount";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +16,8 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/features" element={<Features />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/createAccount" element={<CreateAccount />} />
     </Routes>
   </BrowserRouter>
 );
