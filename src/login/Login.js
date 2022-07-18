@@ -32,15 +32,15 @@ const Login = () => {
         LOGIN_URL,
         JSON.stringify({ username: user, password: pwd }),
         {
-          headers: { "Content-Type": "application/json" },
-          withCredentials: true,
+          //headers: { "Content-Type": "application/json" },
+          // withCredentials: true,
         }
       );
       console.log(JSON.stringify(response?.data));
-      //console.log(JSON.stringify(response));
-      const accessToken = response?.data?.accessToken;
-      const roles = response?.data?.roles;
-      setAuth({ user, pwd, roles, accessToken });
+      console.log(JSON.stringify(response));
+      // const accessToken = response?.data?.accessToken;
+      // const roles = response?.data?.roles;
+      // setAuth({ user, pwd, roles, accessToken });
       setUser("");
       setPwd("");
       setSuccess(true);

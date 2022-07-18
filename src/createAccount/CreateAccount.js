@@ -63,8 +63,8 @@ const CreateAccount = () => {
         REGISTER_URL,
         JSON.stringify({ username: user, password: pwd }),
         {
-          headers: { "Content-Type": "application/json" },
-          withCredentials: true,
+          // headers: { "Content-Type": "application/json" },
+          // withCredentials: true,
         }
       );
       console.log(response?.data);
