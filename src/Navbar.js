@@ -34,10 +34,10 @@ function Navbar() {
           <Link to="/contact" class="nav-item nav-link">
             Contact
           </Link>
-          <Link to="/createAccount" class="nav-item nav-link ">
+          <Link to="/createAccount" class="nav-item nav-link">
             Create Account
           </Link>
-          <Link to="/login" class="nav-item nav-link ">
+          <Link to="/login" class="nav-item nav-link">
             Login
           </Link>
         </div>
