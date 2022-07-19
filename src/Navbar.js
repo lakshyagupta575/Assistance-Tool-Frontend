@@ -12,7 +12,7 @@ function Navbar() {
           className="d-inline-block align-top"
           alt=""
         />
-        <span className="navbar-brand mb-0 h1 pl-3">Assistant</span>
+        <span className="navbar-brand h1 pl-3 mb-0">Assistant</span>
         <button
           className="navbar-toggler"
           type="button"
@@ -37,7 +37,7 @@ function Navbar() {
           </li>
           <li class="nav-item">
             <Link to="/contact" class="nav-link">
-              Contact
+              Contact Us
             </Link>
           </li>
         </ul>
